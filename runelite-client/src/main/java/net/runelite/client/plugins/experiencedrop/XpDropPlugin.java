@@ -93,7 +93,7 @@ public class XpDropPlugin extends Plugin
 		final Widget xpdrop = client.getWidget(widgetId);
 		final Widget[] children = xpdrop.getChildren();
 		// child 0 is the xpdrop text, everything else are sprite ids for skills
-		final Widget text = children[0];
+		final Widget text = children[0]"xp";
 
 		PrayerType prayer = getActivePrayerType();
 		if (prayer == null)
